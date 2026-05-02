@@ -4,7 +4,7 @@ Proyecto para recibir y visualizar datos de un acelerómetro en tiempo real usan
 
 ## 📖 Descripción del proyecto
 
-Este proyecto permite conectar un acelerómetro a una tarjeta ESP32, la cual envía los datos de aceleración (ejes X, Y y Z) a través del protocolo MQTT. Cualquier cliente MQTT puede suscribirse al tema correspondiente y recibir los datos en tiempo real y guardalos en archivo csv.
+Este proyecto permite conectar un acelerómetro a una tarjeta ESP32, la cual envía los datos de aceleración (ejes X, Y, Z y Magnitud) a través del protocolo MQTT. Cualquier cliente MQTT puede suscribirse al tema correspondiente y recibir los datos en tiempo real y guardalos en archivo csv.
 
 ## 🧩 Piezas del proyecto
 
@@ -13,13 +13,10 @@ Este proyecto permite conectar un acelerómetro a una tarjeta ESP32, la cual env
 - Cables para protoboard 
 - ESP32 
 
-## 📸 Foto del proyecto
+## 📸 Diagrama del proyecto
 
-![Foto del proyecto](ruta-de-tu-foto.jpg)
+<img width="523" height="583" alt="Captura de pantalla 2026-05-02 120723" src="https://github.com/user-attachments/assets/6a20a121-2e4f-4075-8369-5698cd3bd069" />
 
-> ⚠️ **Nota:** Cambia `ruta-de-tu-foto.jpg` por la ruta real de tu imagen. Puede ser:
-> - Un archivo dentro de tu repositorio: `imagenes/proyecto.jpg`
-> - Un link directo de internet: `https://tusitio.com/foto.jpg`
 
 ## 🚀 ¿Cómo funciona?
 
